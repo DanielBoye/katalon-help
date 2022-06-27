@@ -23,4 +23,14 @@ Remember to add a `, GlobalVariable.xxx` to add in your text from a variable.
 
 To check if you are on the right website with checking the title
 
-`WebUI.verifyMatch(WebUI.getWindowTitle(), 'xxx', false)
+`WebUI.verifyMatch(WebUI.getWindowTitle(), 'xxx', false)`
+
+---
+
+Often used together 
+
+```
+WebUI.verifyElementVisible()
+
+WebUI.click()
+```
